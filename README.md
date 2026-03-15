@@ -1,124 +1,91 @@
-<div id="top" align="center">
+<div id="top" class="">
 
-# TRACK-MEDS
+<div align="center" class="text-center">
+<h1>PETMATE</h1>
+<p><em>Empowering Pet Care Through Intelligent Innovation</em></p>
 
-*Never miss a dose. Never waste a medicine.*
-
-![last-commit](https://img.shields.io/github/last-commit/Waroo04/Track-meds?style=flat&logo=git&logoColor=white&color=0080ff)
-![top-language](https://img.shields.io/github/languages/top/Waroo04/Track-meds?style=flat&color=0080ff)
-![language-count](https://img.shields.io/github/languages/count/Waroo04/Track-meds?style=flat&color=0080ff)
-
-*Built with the tools and technologies:*
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6.svg?style=flat&logo=TypeScript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB.svg?style=flat&logo=React&logoColor=black)
-![Vite](https://img.shields.io/badge/Vite-646CFF.svg?style=flat&logo=Vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC.svg?style=flat&logo=tailwind-css&logoColor=white)
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7.svg?style=flat&logo=Netlify&logoColor=white)
-
+<img alt="last-commit" src="https://img.shields.io/github/last-commit/Waroo04/PetMate?style=flat&amp;logo=git&amp;logoColor=white&amp;color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
+<img alt="repo-top-language" src="https://img.shields.io/github/languages/top/Waroo04/PetMate?style=flat&amp;color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
+<img alt="repo-language-count" src="https://img.shields.io/github/languages/count/Waroo04/PetMate?style=flat&amp;color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
+<p><em>Built with the tools and technologies:</em></p>
+<img alt="JSON" src="https://img.shields.io/badge/JSON-000000.svg?style=flat&amp;logo=JSON&amp;logoColor=white" class="inline-block mx-1" style="margin: 0px 2px;">
+<img alt="Markdown" src="https://img.shields.io/badge/Markdown-000000.svg?style=flat&amp;logo=Markdown&amp;logoColor=white" class="inline-block mx-1" style="margin: 0px 2px;">
+<img alt="npm" src="https://img.shields.io/badge/npm-CB3837.svg?style=flat&amp;logo=npm&amp;logoColor=white" class="inline-block mx-1" style="margin: 0px 2px;">
+<img alt="Autoprefixer" src="https://img.shields.io/badge/Autoprefixer-DD3735.svg?style=flat&amp;logo=Autoprefixer&amp;logoColor=white" class="inline-block mx-1" style="margin: 0px 2px;">
+<img alt="PostCSS" src="https://img.shields.io/badge/PostCSS-DD3A0A.svg?style=flat&amp;logo=PostCSS&amp;logoColor=white" class="inline-block mx-1" style="margin: 0px 2px;">
+<img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat&amp;logo=JavaScript&amp;logoColor=black" class="inline-block mx-1" style="margin: 0px 2px;">
+<br>
+<img alt="React" src="https://img.shields.io/badge/React-61DAFB.svg?style=flat&amp;logo=React&amp;logoColor=black" class="inline-block mx-1" style="margin: 0px 2px;">
+<img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=flat&amp;logo=TypeScript&amp;logoColor=white" class="inline-block mx-1" style="margin: 0px 2px;">
+<img alt="Vite" src="https://img.shields.io/badge/Vite-646CFF.svg?style=flat&amp;logo=Vite&amp;logoColor=white" class="inline-block mx-1" style="margin: 0px 2px;">
+<img alt="ESLint" src="https://img.shields.io/badge/ESLint-4B32C3.svg?style=flat&amp;logo=ESLint&amp;logoColor=white" class="inline-block mx-1" style="margin: 0px 2px;">
+<img alt="Axios" src="https://img.shields.io/badge/Axios-5A29E4.svg?style=flat&amp;logo=Axios&amp;logoColor=white" class="inline-block mx-1" style="margin: 0px 2px;">
+<img alt="datefns" src="https://img.shields.io/badge/datefns-770C56.svg?style=flat&amp;logo=date-fns&amp;logoColor=white" class="inline-block mx-1" style="margin: 0px 2px;">
 </div>
-
----
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Usage](#usage)
-- [Live Demo](#live-demo)
-- [Contributing](#contributing)
-
----
-
-## Overview
-
-Track-Meds is a web application designed to help you manage your medication inventory efficiently. It allows you to scan and purchase medications, set reminders, and receive notifications when your medicines are about to expire — so you never miss a dose or let any medication go to waste.
-
----
-
-## Features
-
-- 🔍 **Scan & Purchase** — Quickly scan barcodes to add medications to your inventory
-- ⏰ **Expiry Reminders** — Set reminders to receive timely notifications before medications expire
-- 🔔 **Notifications** — Stay informed about your medication status at all times
-- 🖥️ **User-Friendly Interface** — Intuitive design for easy navigation and management
-
----
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js 18+
-- npm
-
-### Installation
-
-1. **Clone the repository:**
-
-```sh
-git clone https://github.com/Waroo04/Track-meds
-cd Track-meds
-```
-
-2. **Install dependencies:**
-
-```sh
-npm install
-```
-
-### Usage
-
-Start the development server:
-
-```sh
-npm run dev
-```
-
-Build for production:
-
-```sh
-npm run build
-```
-
----
-
-## Live Demo
-
-🌐 [trackmeds2024.netlify.app](https://trackmeds2024.netlify.app/)
-
----
-
-## Project Structure
-
-```
-├── src/
-│   ├── components/    # Reusable UI components
-│   ├── pages/         # Application pages
-│   └── assets/        # Static assets
-├── Image/             # Project images
-├── index.html
-├── package.json
-└── vite.config.ts
-```
-
-## Scripts
-
-| Command | Description |
-|---------|-------------|
-| `npm run dev` | Start development server |
-| `npm run build` | Build for production |
-| `npm run lint` | Run ESLint |
-
----
-
-## Contributing
-
-Contributions are welcome! Feel free to submit a pull request or open an issue for suggestions and improvements.
-
----
-
-<div align="left"><a href="#top">⬆ Return to top</a></div>
+<br>
+<hr>
+<h2>Table of Contents</h2>
+<ul class="list-disc pl-4 my-0">
+<li class="my-0"><a href="#overview">Overview</a></li>
+<li class="my-0"><a href="#getting-started">Getting Started</a>
+<ul class="list-disc pl-4 my-0">
+<li class="my-0"><a href="#prerequisites">Prerequisites</a></li>
+<li class="my-0"><a href="#installation">Installation</a></li>
+<li class="my-0"><a href="#usage">Usage</a></li>
+<li class="my-0"><a href="#testing">Testing</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>Overview</h2>
+<p>PetMate is a modern web application designed to simplify pet care management through a robust, developer-centric architecture. Built with React, TypeScript, and Vite, it offers a seamless experience for managing pet profiles, appointments, and health data, all while supporting AI-powered interactions.</p>
+<p><strong>Why PetMate?</strong></p>
+<p>This project aims to deliver a scalable, maintainable platform for pet enthusiasts and developers alike. The core features include:</p>
+<ul class="list-disc pl-4 my-0">
+<li class="my-0">🛠️ <strong>Code Quality &amp; Build Optimization:</strong> ESLint configuration and Vite setup ensure fast, error-free development and deployment.</li>
+<li class="my-0">🎨 <strong>Reusable UI Components:</strong> Modular elements like modals, buttons, and pet cards promote UI consistency and rapid development.</li>
+<li class="my-0">🔐 <strong>Secure Authentication:</strong> Integrated with Supabase for user management, login, registration, and password resets.</li>
+<li class="my-0">🤖 <strong>AI Chat Integration:</strong> Interactive GeminiAI component supports text and image inputs for engaging pet care conversations.</li>
+<li class="my-0">🐾 <strong>Pet &amp; Appointment Management:</strong> Intuitive interfaces for creating, editing, and visualizing pet profiles and schedules.</li>
+</ul>
+<hr>
+<h2>Getting Started</h2>
+<h3>Prerequisites</h3>
+<p>This project requires the following dependencies:</p>
+<ul class="list-disc pl-4 my-0">
+<li class="my-0"><strong>Programming Language:</strong> TypeScript</li>
+<li class="my-0"><strong>Package Manager:</strong> Npm</li>
+</ul>
+<h3>Installation</h3>
+<p>Build PetMate from the source and install dependencies:</p>
+<ol>
+<li class="my-0">
+<p><strong>Clone the repository:</strong></p>
+<pre><code class="language-sh">❯ git clone https://github.com/Waroo04/PetMate
+</code></pre>
+</li>
+<li class="my-0">
+<p><strong>Navigate to the project directory:</strong></p>
+<pre><code class="language-sh">❯ cd PetMate
+</code></pre>
+</li>
+<li class="my-0">
+<p><strong>Install the dependencies:</strong></p>
+</li>
+</ol>
+<p><strong>Using <a href="https://www.npmjs.com/">npm</a>:</strong></p>
+<pre><code class="language-sh">❯ npm install
+</code></pre>
+<h3>Usage</h3>
+<p>Run the project with:</p>
+<p><strong>Using <a href="https://www.npmjs.com/">npm</a>:</strong></p>
+<pre><code class="language-sh">npm start
+</code></pre>
+<h3>Testing</h3>
+<p>Petmate uses the {<strong>test_framework</strong>} test framework. Run the test suite with:</p>
+<p><strong>Using <a href="https://www.npmjs.com/">npm</a>:</strong></p>
+<pre><code class="language-sh">npm test
+</code></pre>
+<hr>
+<div align="left" class=""><a href="#top">⬆ Return</a></div>
+<hr></div>
